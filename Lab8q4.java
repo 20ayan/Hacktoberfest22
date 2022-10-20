@@ -13,7 +13,7 @@ class Lab8q4{
 		}
 		try{
 			String s="1 2 *";
-			int x=Integer.parseInt(s);
+			int y=Integer.parseInt(s);
 		}
 		catch(NumberFormatException e){
 			System.out.println("Enter Integers");
