@@ -7,9 +7,9 @@ public class Lab10q8 implements Runnable
 	}
 	public static void main(String args[])
 	{
-		Thread t1 = new Thread(new Lab10q8(), "Thread A");
-		Thread t2 = new Thread(new Lab10q8(), "Thread B");
-		Thread t3 = new Thread(new Lab10q8(), "Thread C");
+		Thread t1 = new Thread(new Lab10q8(), "Thread D");
+		Thread t2 = new Thread(new Lab10q8(), "Thread E");
+		Thread t3 = new Thread(new Lab10q8(), "Thread F");
 		t3.setPriority(10);
 		t2.setPriority(5);
 		t1.setPriority(1);
