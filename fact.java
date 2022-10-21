@@ -3,17 +3,17 @@ class fact
 {
 	static int fact(int n)
 	{
-		int res = 1;
+		int factorial = 1;
 		for(int i=2; i<=n; i++)
-		res = res*i;
-		return res;
+		factorial = factorial*i;
+		return factorial;
 	}
 	public static void main(String args[])
 	{
-		int n;
+		int num;
 		System.out.println("Enter the value of n: ");
 		Scanner sc = new Scanner(System.in);
-		n = sc.nextInt();
-		System.out.println("Factorial of the number is: " +fact(n));
+		num = sc.nextInt();
+		System.out.println("Factorial of the number is: " +fact(num));
 	}
 }
